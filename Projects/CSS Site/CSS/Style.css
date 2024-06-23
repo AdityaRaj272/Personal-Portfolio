@@ -1,0 +1,160 @@
+ /**Tags**/
+ a{
+    text-decoration: none;
+ }
+
+ body{
+    background-color: #F1EEDC;
+    margin: 0px;
+    font-family:Arvo, serif;
+    text-align: center;
+    
+}
+
+ div{
+    border-color: blue;
+ }
+
+ h1{
+    font-size: 2.5rem;
+    margin: 50px auto 0 auto;
+ }
+
+
+ h2{
+    color: #525CEB;
+    margin-top: 80px;
+}
+ 
+
+ h3{
+    color: #c93b3b;
+ }
+
+ hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    color: #1B3C73;
+    width: 15%;
+
+ }
+ 
+p{
+    font-family: Arvo, serif;
+    line-height: 2rem;
+    margin: auto;
+    width: 45%;
+}
+
+ /**Class**/
+ 
+ .Bottom-Cloud{
+     left: 60px;
+     position: absolute;
+     top: 250px;
+     width: 22%;
+ }
+
+ .Bottom-Container{
+    background-color: #BF3131;   
+    margin-top: 20px;
+    padding-top: 10px;
+ }
+
+ .Button {
+    background: #8d23c2;
+    background-image: -webkit-linear-gradient(top, #8d23c2, #2a0f7a);
+    background-image: -moz-linear-gradient(top, #8d23c2, #2a0f7a);
+    background-image: -ms-linear-gradient(top, #8d23c2, #2a0f7a);
+    background-image: -o-linear-gradient(top, #8d23c2, #2a0f7a);
+    background-image: linear-gradient(to bottom, #8d23c2, #2a0f7a);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #c1e4b4;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .Button:hover {
+    background: #8328bf;
+    background-image: -webkit-linear-gradient(top, #8328bf, #3512c4);
+    background-image: -moz-linear-gradient(top, #8328bf, #3512c4);
+    background-image: -ms-linear-gradient(top, #8328bf, #3512c4);
+    background-image: -o-linear-gradient(top, #8328bf, #3512c4);
+    background-image: linear-gradient(to bottom, #8328bf, #3512c4);
+    text-decoration: none;
+  }
+
+ .CopyRight{
+    margin-top: 0px;
+    font-size: 0.7rem;
+ }
+
+ .Footer-Link{
+    color: lightgray;
+    font-size: 0.8rem;
+    margin: auto 10px 0px 10px;
+ }
+
+.Footer-Link:hover{
+    color: azure;
+}
+
+ .Guitar{
+    float: left;
+ }
+
+ .Intro{
+    margin-bottom: 70px;
+ }
+ 
+ .Middle-Container{
+    margin-top: 100px;
+}
+
+.Mountain{
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 120px;
+}
+
+.Name{
+    color: #5C2FC2;
+    font-family: Dancing Script, seirf;
+    font-weight: 700;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.Skill-Row{
+    margin:70px auto 70px auto;
+}
+
+.Top-Cloud{
+    right: 30px;
+    position: absolute;
+    top: 30px;
+    width: 21%;
+}
+
+.Top-Container{
+    background-color:rgb(251, 203, 219) ;
+    padding-top: 60px;
+    position: relative;
+    color: rgb(2, 7, 115);
+}
+
+.Programmer{
+    float: right;
+    margin: auto auto 30px auto;
+}
+
+.Work{
+    font-size: 1.3rem;
+    margin: 0 auto auto auto;
+}

@@ -1,0 +1,218 @@
+/* Navbar Section */
+
+.container-fluid {
+    padding: 3% 10% 3% 10%;
+}
+
+.navbar-brand {
+    font-family: "Patua One", sans-serif;
+    font-size: 3rem;
+}
+
+.nav-item {
+    font-family: "Montserrant", sans-serif;
+    font-weight: 400;
+    padding: 0 18px;
+}
+
+
+/* Title Section */
+
+#Title {
+    background-color: #25025a;
+    text-align: left;
+}
+
+@media (max-width: 991px) {
+    #Title {
+        text-align: center;
+    }
+}
+
+.Tag-Line {
+    color: rgb(255, 0, 179);
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 50px 0 35px 0;
+    size: 3rem;
+}
+
+.btn {
+    margin: 0 3% 5% 0;
+}
+
+.Title-Image {
+    position: absolute;
+    right: 20%;
+    transform: rotate(20deg);
+    width: 18%;
+}
+
+
+/* Features Section */
+
+#Features {
+    background-color: #2b2b32;
+    padding: 15%;
+    position: relative;
+}
+
+.Features-Text {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.Feature {
+    color: rgb(243, 196, 255);
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.icon {
+    color: rgb(0, 196, 0);
+}
+
+.icon:hover {
+    color: rgb(66, 220, 1);
+}
+
+
+/* Testimonials Section */
+
+#Testimonials {
+    background-color: #1c0045;
+    line-height: 2;
+    padding: 5% 15% 5% 15%;
+}
+
+.Testimonial-Image {
+    border-radius: 100%;
+    margin: auto 40px auto auto;
+}
+
+.Fighter-Words {
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 6.8%;
+}
+
+.Nerd-Words {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+.Gentlemen-Words {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 6.8%;
+}
+
+
+@media (max-width: 991px) {
+    .Fighter-Words {
+        margin-bottom: 9.3%;
+    }
+
+    .Gentlemen-Words {
+        margin-bottom: 9.3%;
+    }
+
+    .Title-Image {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
+/* Press Section */
+
+#Press {
+    background-color: #1c0045;
+    padding-bottom: 20px;
+}
+
+.Press-Img {
+    width: 4rem;
+    padding-top: 50px;
+}
+
+/* Pricing */
+
+#Pricing {
+    padding: 10% 5% 10% 5%;
+}
+
+.card-header {
+    color: gold;
+    background-color: #3d3d3e;
+}
+
+.card {
+    color: azure;
+    background-color: #2b2b32;
+    padding: auto 2%;
+    font-weight: 300;
+}
+
+.Card-Title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    size: 3rem;
+}
+
+.Price,
+.OR {
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+
+.Pricing-Text {
+    text-align: left;
+}
+
+/* CTA Section */
+
+.Moto {
+    color: gold;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+
+/* Footer Section */
+
+#Footer {
+    background-color: #5c55ee;
+    padding-top: 0.5%;
+}
+
+.Footer-Link {
+    color: lightgray;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: auto 20px 0px 20px;
+    text-decoration: none;
+}
+
+.Footer-Link:hover {
+    color: azure;
+}
+
+.CopyRight {
+    color: darkgray;
+    margin-top: 10px;
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+
+
+
+/* Common */
+
+body {
+    background-color: #2b2b32;
+    color: azure;
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
