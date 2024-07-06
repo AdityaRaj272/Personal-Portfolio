@@ -222,7 +222,25 @@
 }
 
 
+@media (max-width:420px) {
+    .Avatar-Greet {
+        position: relative;
+        bottom: 0;
+        left: 25%;
+        margin-top: 50px;
+        font-size: 2.2rem;
+    }
 
+    .Avatar-Text {
+        position: relative;
+        bottom: 0;
+        left: 10%;
+        width: 300px;
+        margin-bottom: 30px;
+        font-size: 1rem;
+    }
+
+}
 
 
 
@@ -247,6 +265,15 @@
     font-size: 5.5rem;
     font-weight: normal;
 }
+
+@media(max-width:420px) {
+    .Heading {
+        font-size: 4rem;
+        position: relative;
+        left: 5%;
+    }
+}
+
 
 #Projects {
     margin-bottom: 200px;
@@ -372,7 +399,7 @@ a {
 @media(max-width: 815px) {
     .Nav-Contact {
         display: block;
-        margin-right: 50px;
+        margin-top: 20px;
     }
 }
 
@@ -416,6 +443,35 @@ a {
 
 }
 
+.Contact-Heading {
+
+    font-family: Ubuntu, sans-serif;
+    font-size: 2rem;
+    color: #eeca00;
+    font-weight: 700;
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+.Ruler-Contact {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #ffffff;
+    width: 25%;
+    position: relative;
+    left: 95%;
+    top: 70px;
+}
+
+#Footer-Contact {
+    background-color: #3b1fa3;
+    height: 200px;
+    margin-top: -800px;
+    text-align: center;
+}
+
 @media(max-width: 835px) {
     #Contact {
         position: relative;
@@ -442,9 +498,8 @@ a {
         top: 500px;
     }
 
-    .Ruler-Contact{
-        position: relative;
-        right: 30%;
+    .Ruler-Contact {
+        visibility: hidden;
     }
 }
 
@@ -460,16 +515,36 @@ a {
     }
 }
 
-.Contact-Heading {
+@media(max-width:420px) {
+    .Contact-Text {
+        font-size: 4rem;
+    }
 
-    font-family: Ubuntu, sans-serif;
-    font-size: 2rem;
-    color: #eeca00;
-    font-weight: 700;
-    position: relative;
-    left: 10%;
-    width: 80%;
+    .Contact-Heading {
+        font-size: 1.5rem;
+    }
+
+    .Title{
+        position: relative;
+        right: 30%;
+        bottom: 0px;
+    }
+    #Footer-Contact .Footer-Name{
+        width: 200px;
+        position: relative;
+        left: 33%;
+    }
+
+    #Contact{
+        width: 65%;
+    }
+
+    #Footer-Contact{
+        margin-top: -900px;
+    }
 }
+
+
 
 .Form-Item {
     text-align: center;
@@ -528,23 +603,9 @@ textarea {
     color: rgb(253, 243, 255);
 }
 
-.Ruler-Contact {
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 10px;
-    border-color: #ffffff;
-    width: 25%;
-    position: relative;
-    left: 95%;
-    top: 150px;
-}
 
-#Footer-Contact {
-    background-color: #3b1fa3;
-    height: 200px;
-    margin-top: -700px;
-    text-align: center;
-}
+
+
 
 
 
@@ -632,7 +693,7 @@ textarea {
     width: 32%;
 }
 
-.Programmer-Pic{
+.Programmer-Pic {
     position: relative;
     bottom: 300px;
     left: 10%;
@@ -665,7 +726,7 @@ textarea {
     bottom: 500px;
 }
 
-@media(max-width:1120px){
+@media(max-width:1120px) {
 
 
     .Personal-Div {
@@ -674,14 +735,14 @@ textarea {
         top: 200px;
         width: 500px;
     }
-    
+
     .Academic-Div {
         position: relative;
         left: 20%;
         top: 260px;
         width: 600px;
     }
-    
+
     .Skills-Div {
         position: relative;
         left: 21%;
@@ -696,28 +757,28 @@ textarea {
         left: 27%;
         width: 50%;
     }
-    
+
     .Hat-Pic {
         position: relative;
         top: 260px;
         left: 28%;
         width: 45%;
     }
-    
-    .Programmer-Pic{
+
+    .Programmer-Pic {
         position: relative;
         top: 350px;
         left: 15%;
         width: 22%;
     }
-    
+
     .Guitar-Pic {
         position: relative;
         top: 550px;
-        left:30%;
+        left: 30%;
         width: 33%;
     }
-    
+
     #Footer-About {
         background-color: #3b1fa3;
         height: 200px;
@@ -725,35 +786,92 @@ textarea {
         text-align: center;
     }
 
-    .Ruler-About{
+    .Ruler-About {
         top: 550px;
     }
 }
 
 
-@media(max-width:745px){
+@media(max-width:745px) {
 
-    .Fields{
+    .Fields {
         font-size: 0.83rem;
     }
 
-    .Field-Items{
+    .Field-Items {
         font-size: 0.7rem;
     }
 
-    .About-Heading{
+    .About-Heading {
         font-size: 1.5rem;
     }
 
-    .Personal-Div{
+    .Personal-Div {
         width: 350px;
     }
-    .Academic-Div{
+
+    .Academic-Div {
         width: 350px;
     }
-    .Skills-Div{
+
+    .Skills-Div {
         width: 350px;
     }
+
+    .Programmer-Pic{
+        width: 30%;
+    }
+
+    .Guitar-Pic{
+        width: 40%;
+        left: 20%;
+    }
+}
+
+
+
+@media(max-width:420px) {
+
+    .Fields {
+        font-size: 0.7rem;
+    }
+
+    .Field-Items {
+        font-size: 0.6rem;
+    }
+
+    .Personal-Div {
+        position: relative;
+        left: 22%;
+        width: 280px;
+    }
+
+    .Academic-Div {
+        width: 280px;
+    }
+
+    .Skills-Div {
+        width: 280px;
+    }
+
+    .Greet-Pic{
+        width: 55%;
+    }
+
+    .Programmer-Pic{
+        width: 40%;
+    }
+
+    .Guitar-Pic{
+        width: 55%;
+        left: 0%;
+    }
+
+    #Footer-About .Footer-Name{
+        width: 200px;
+        left: 35%;
+    }
+
 }
 
 
@@ -833,6 +951,25 @@ textarea {
         top: -90px;
     }
 }
+
+
+
+
+@media(max-width:500px) {
+    .Footer-Name {
+        font-size: 2rem;
+        position: relative;
+        left: 13%;
+    }
+
+    .Footer-Nav {
+        position: relative;
+        right: 30%;
+    }
+}
+
+
+
 
 .Footer-Link:hover {
     color: azure;
